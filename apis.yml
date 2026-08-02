@@ -1,7 +1,29 @@
 aid: zogo-finance
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zogo-finance.png
 name: Zogo Finance
-description: Zogo Finance is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zogo Finance is a gamified financial education platform (founded 2018, a
+  Techstars portfolio company) that helps banks, credit unions, and other
+  financial institutions engage and educate their customers. Its library of
+  1,200+ bite-sized financial literacy modules is delivered to end users through
+  an embeddable, white-label SDK that partners drop into their existing digital
+  banking apps and websites, plus a standalone mobile app and desktop web
+  experience. Users earn redeemable points for completing lessons. Zogo is a
+  B2B/enterprise offering distributed via SDK embed and mobile-banking
+  integrations (Q2, NCR, Jack Henry Banno) rather than a public developer API;
+  as of this pass no public API documentation, OpenAPI specification, or
+  developer portal is published.
 url: https://raw.githubusercontent.com/api-evangelist/zogo-finance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Financial Literacy
+- Financial Education
+- FinTech
+- Gamification
+- Banking
+- Credit Unions
+- SDK
+- EdTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zogo-finance-domain-security.yml
 - type: Website
   url: https://zogofinance.com/
+- type: Blog
+  url: https://zogo.com/blog
+- type: Support
+  url: https://zogo.com/support
+- type: TermsOfService
+  url: https://zogo.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://zogo.com/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
