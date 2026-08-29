@@ -36,6 +36,9 @@ description: >-
   as of this pass no public API documentation, OpenAPI specification, or
   developer portal is published.
 url: https://raw.githubusercontent.com/api-evangelist/zogo-finance/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Zogo is a B2B/enterprise offering distributed via SDK embed and mobile-banking integrations (Q2, NCR, Jack Henry Banno) rather than a public developer API; as of this pass no public API documentation,"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
